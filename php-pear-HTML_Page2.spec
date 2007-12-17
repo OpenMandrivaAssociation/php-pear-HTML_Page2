@@ -17,7 +17,6 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 The PEAR::HTML_Page2 package provides a simple interface for generating an XHTML compliant page.
