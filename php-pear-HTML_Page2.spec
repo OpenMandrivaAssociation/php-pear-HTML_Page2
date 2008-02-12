@@ -20,8 +20,10 @@ BuildRequires:	dos2unix
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
-The PEAR::HTML_Page2 package provides a simple interface for generating an XHTML compliant page.
-* supports virtually all HTML doctypes, from HTML 2.0 through XHTML 1.1 and XHTML Basic 1.0
+The PEAR::HTML_Page2 package provides a simple interface for generating an
+XHTML compliant page.
+* supports virtually all HTML doctypes, from HTML 2.0 through XHTML 1.1 and
+XHTML Basic 1.0
   plus preliminary support for XHTML 2.0
 * namespace support
 * global language declaration for the document
@@ -31,7 +33,8 @@ The PEAR::HTML_Page2 package provides a simple interface for generating an XHTML
 * support for script declaration in the head section
 * support for linked stylesheets and scripts
 * full support for header link tags
-* body can be a string, object with toHtml or toString methods or an array (can be combined)
+* body can be a string, object with toHtml or toString methods or an array (can
+be combined)
 
 Ideas for use:
 * Use to validate the output of a class for XHTML compliance
