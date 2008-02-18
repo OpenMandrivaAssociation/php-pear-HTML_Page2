@@ -4,7 +4,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 %define		_ver		%{version}beta
 
-Summary:	%{_pearname} - PEAR::HTML_Page2 is a base class for XHTML page generation
+Summary:	Base class for XHTML page generation
 Name:		php-pear-%{_pearname}
 Version:	0.5.0
 Release:	%mkrel 2
