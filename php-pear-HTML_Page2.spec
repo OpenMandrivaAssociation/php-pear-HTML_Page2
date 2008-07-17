@@ -7,7 +7,7 @@
 Summary:	Base class for XHTML page generation
 Name:		php-pear-%{_pearname}
 Version:	0.5.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{_ver}.tar.bz2
@@ -17,7 +17,7 @@ Requires(preun): php-pear
 Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 The PEAR::HTML_Page2 package provides a simple interface for generating an
