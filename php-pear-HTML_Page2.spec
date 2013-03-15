@@ -38,8 +38,6 @@ Ideas for use:
 * Use to validate the output of a class for XHTML compliance
 * Quick prototyping using PEAR packages is now a breeze
 
-This class has in PEAR status: %{_status}.
-
 %prep
 %setup -q -c
 mv package.xml %{upstream_name}-%{version}%{pre}/%{upstream_name}.xml
