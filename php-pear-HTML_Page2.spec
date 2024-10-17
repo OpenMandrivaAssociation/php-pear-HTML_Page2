@@ -9,7 +9,7 @@ Release:	12
 Summary:	Base class for XHTML page generation
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/HTML_Page2/
+URL:		https://pear.php.net/package/HTML_Page2/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}%{pre}.tar.bz2
 Requires(post): php-pear
 Requires(preun): php-pear
